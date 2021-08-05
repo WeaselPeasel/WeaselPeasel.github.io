@@ -1,0 +1,75 @@
+.navigation {
+    list-style: none;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-left: 0px;
+    /* width: 90%; */
+    background-color: #0aa;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation li {
+    /* flex: 1; */
+    width: 25%;
+    margin-left: 0px;
+    padding: 5px 5px;
+    background-color: #0aa;
+    text-align: center;
+    font-size: 30px;
+}
+.navigation li:hover {
+    animation-name: navcolor;
+    animation-duration: 1s;
+    background-color: #0ff;
+}
+
+@keyframes navcolor {
+    from {background-color: #0aa;}
+    to {background-color: #0ff;}
+}
+
+.aboutMe {
+    width: 60%;
+    text-align: left;
+    margin: auto;
+
+    font-size: 16pt;
+    font-family: Bodoni;
+    line-height: 1.4;
+}
+
+/* particle css */
+body,
+html {
+    height: 100%
+}
+
+#particles-js canvas {
+    display: block;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}

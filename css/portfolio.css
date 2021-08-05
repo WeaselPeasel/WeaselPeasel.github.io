@@ -1,0 +1,46 @@
+.my-projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: blueviolet; */
+    justify-content: center;
+}
+
+.project {
+    width: 30%;
+    /* flex: 1 0 30%; */
+    padding: 10px;
+    margin: 40px;
+    /* float: left; */
+    border: 2px solid black;
+}
+
+.label {
+    margin: auto;
+    text-align: center;
+    background-color: #099;
+    color: #dfdfdf;
+    font-size: 25px;
+    font-family: Bodoni;
+}
+
+.sites {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: blueviolet; */
+    justify-content: center;
+}
+
+.site-link {
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    color: #dfdfdf;
+    width: 30%;
+    /* flex: 1 0 30%; */
+    padding: 20px 0 20px 0;
+    margin: 25px;
+    /* float: left; */
+    border: 2px solid black;
+}
