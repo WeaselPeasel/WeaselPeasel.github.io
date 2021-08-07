@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>MineSweeper</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/index.js"></script>
+	</head>
+	<body>
+		<div class="encap">
+			<header>
+				<img class="logo" src="images/Logo2.png">
+				<div class="banner"><h2>MineSweeper</h2></div>
+			</header>
+			<!-- <img class="bomb-popup" src="images/nuke.jpeg"> -->
+			<br><br>
+			<p id="instructout"></p>
+			<p id="victory"></p>
+			<div class="main">
+				<div class="button-container">
+					<button id="instruct" onclick='tutorial()'>Instructions</button><br><br>
+					<input id="playername" type="text" name="playername" placeholder="Enter name (optional)"><br>
+					<button id="submitname" onclick='entername()'>Submit</button><br>
+					<br><button id="reset" onclick='reset_all()'>Reset</button>
+				</div>
+				<div id="board" oncontextmenu="return false">
+				</div>
+			</div>
+			<footer>
+				<p><b><span id="playernameout" class="hidden"></span>:</b> You Have <span id="score">0</span> points!!!</p><br><br>
+				Last updated
+				<script>
+					document.write(document.lastModified);
+				</script>
+			</footer>
+		</div>
+	</body>

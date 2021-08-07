@@ -13,6 +13,22 @@
     margin: 40px;
     /* float: left; */
     border: 2px solid black;
+	font-family: Bodoni;
+	font-size: 16pt;
+}
+
+.project-link {
+	padding: 15px 10px;
+	text-decoration: none;
+	background-color: #1ca;
+	margin: auto;
+	text-align: center;
+	color: #444;
+	border: 1px solid black;
+}
+
+.project-link:hover {
+	background-color: #1fb;
 }
 
 .label {
@@ -37,17 +53,42 @@
     font-size: 30px;
     text-align: center;
     background-color: #088;
-    color: #dfdfdf;
+    color: #fff;
     width: 30%;
-    /* flex: 1 0 30%; */
-    padding: 20px 0 20px 0;
-    margin: 25px;
-    /* float: left; */
+    padding: 20px 10px 20px 10px;
+    margin: 40px;
     border: 2px solid black;
-
-
 }
 
 @keyframes linkcolor {
+	from {background-color: #088; color: #fff;}
+	to {background-color: #055; color: #fff;}
+}
 
+.site-link:hover {
+	background-color: #055; 
+	color: #fff;
+	animation-name: linkcolor;
+	animation-duration: 1s;
+}
+
+.year {
+	margin: auto;
+	width: 25%;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+
+	font-family: Bodoni;
+	font-size: 40px;
+	border: 1px solid black;
+	border-radius: 12px;
+	background-color: #0aa;
+	color: #444;
+}
+
+/* Mobile friendly css */
+@media screen and (max-width: 800px) {
+	.project {
+		width: 70%;
+	}
 }

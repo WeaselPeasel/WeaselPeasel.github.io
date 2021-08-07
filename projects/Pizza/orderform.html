@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PPP - Finalize Order</title>
+		<link rel="stylesheet" href="css/orderpage2.css" type="text/css">
+		<link rel="stylesheet" href="css/orderform.css" type="text/css">
+		<link type="text/css" rel="stylesheet" href="css/index.css"/>
+    	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<meta charset="utf-8" lang="english">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/sweetalert.min.js"></script>
+		<script src="js/orderform.js"></script>
+		<script src="js/cookiemanip.js"></script>
+	</head>
+	<body>
+        <nav>
+            <div class="nav-wrapper red darken-1">
+                <a href="index.html" class="brand-logo logo-font"><img src="images/icons/pizza.png" class="pizza-icon" alt="pizza-icon">Pebble's Perfect Pizza</a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="orderpage2.html" class="logo-font">Menu</a></li>
+                    <li><a href="#"><i class="material-icons">shopping_cart</i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-nav">
+            <li><a href="orderpage.html">Menu</a></li>
+            <li><a href="#">Cart</a></li>
+        </ul>
+		<div class="mycontainer">
+			<!-- Main Content -->
+			<br>
+			<div class="form-cont">
+				<!-- add more info (name, zip, house) -->
+				<div style="width: 50%;">First Name: <input id="fname" type="text" placeholder="Enter first name"></div> <div style="width: 50%;">Last Name: <input id="lname" type="text" placeholder="Enter last name"></div>
+				<div style="width: 100%;">Address: <input id="addr" type="text" placeholder="Enter address" required></div>
+			</div>
+			<div class="list-order">
+				<h3>Your Orders Are:</h4><br>
+			</div>
+			<div class="bottom-panel">
+				<button id="confirm" type="button">Confirm Order</button>
+			</div>
+		</div>
+        <footer class="page-footer red darken-1">
+				<div class="container">
+				  <div class="row">
+					<div class="col l6 s12">
+					  <h5 class="white-text logo-font">Pebble's Perfect Pizza</h5>
+					  <p class="grey-text text-lighten-4"></p>
+					</div>
+					<div class="col l4 offset-l2 s12">
+					  <h5 class="white-text logo-font">Connect with us</h5>
+					  <ul>
+						<li class="social-media"><a class="grey-text text-lighten-3" href="https://twitter.com/" target="_blank"><img class="icons" src="images/icons/twitter.png" alt="twitter"></a></li>
+						<li class="social-media"><a class="grey-text text-lighten-3" href="https://www.instagram.com/" target="_blank"><img class="icons" src="images/icons/instagram.png" alt="instagram"></a></li>
+						<li class="social-media"><a class="grey-text text-lighten-3" href="https://www.facebook.com/" target="_blank"><img class="icons" src="images/icons/facebook.png" alt="facebook"></a></li>
+					  </ul>
+					</div>
+				  </div>
+				</div>
+				<div class="footer-copyright">
+				  <div class="container">
+				  © 2019 Copyright Text
+				  </div>
+				</div>
+		  </footer>
+		<!-- Script Section -->
+		<script>
+			// main
+			// Or with jQuery
+			$(document).ready(function(){
+				$(".sidenav").sidenav();
+				
+			});
+		</script>
+        
+	</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ShutterSnap</title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css/shutter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    
+    <!-- header -->
+    <nav class="teal lighten-2">
+        <div class="navbar-fixed">
+            <div class="nav-wrapper wrapperInner">
+                <a href="#" class="brand-logo">ShutterSnap</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="FunFotos.html">Fun Fotos</a></li>
+                    <li><a href="construction.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- parallaxed image -->
+    <div class="parallax-container">
+        <div class="wrapperInner paraText">
+            <p class="paraText">Here at ShutterSnap we strive to bring your favorite memories to life, we offer serveral different products including photobooks, mugs, and cards! Shop with us today!</p>
+        </div>
+      <div class="parallax"><img src="https://prd-static-default.sf-cdn.com/resources/images/store/2015/global/1490x640/linen-cover-options-1490x640-20151105.jpg"></div>
+    </div>
+    
+    
+    <div class="row wrapperInner">
+        <ul class="tabs tabs-fixed-width" id="tabs-swipe-demo">
+            <li class="tab col s3"><a href="#test1">Prints</a></li>
+            <li class="tab col s3"><a href="#test2">Mugs, Cards, etc</a></li>
+            <li class="tab col s3"><a href="#test3">Fun Fotos</a></li>
+        </ul>
+        <div style="height:20px"></div>
+        <div id="test1" class="col row s12 wrapperInner flex">
+            <div class="col s4"><img src="https://i.etsystatic.com/8592106/r/il/2424ad/1958523509/il_570xN.1958523509_2evf.jpg" class="imgTab"></div>
+            <div class="col s4">
+                <p>Shuttersnap offers personalized prints of any size, and any design/image all on our patent pending ShutterPaper</p>
+                <a class="waves-effect waves-light btn centerButton" href="construction.html">Shop Now!</a>
+            </div>
+            <div class="col s4"><img src="https://previews.123rf.com/images/ploiipjj/ploiipjj1804/ploiipjj180400108/100521661-simple-cute-pattern-in-abstract-flowers-ditsy-print-floral-seamless-background-fashion-prints.jpg" class="imgTab"></div>
+        </div>
+        <div id="test2" class="col row s12 wrapperInner flex">
+            <div class="col s4"><img src="https://c4.staticsfly.com/asset/fetch/cs/MUG-47005-303-MERCHLARGE_FRONT-BLACKMUG/thumbnail.preview/v2" class="imgTab"></div>
+            <div class="col s4"><p>Get your favorite patterns/images on mugs, holiday cards, shirts, and even more!</p><a class="waves-effect waves-light btn centerButton" href="construction.html">Shop Now!</a></div>
+            <div class="col s4"><img src="https://cdn3.minted.com/files/mintedProductsImages/MIN/HYC/9PK/MIN-9PK-HYC-001CHRISTMAS_A_PZ.jpg?mntd_prf=Pdp:HeroImage" class="imgTab"></div>
+        </div>
+        <div id="test3" class="col row s12 wrapperInner flex">
+            <div class="col s4"><img src="https://prd-static-default-1.sf-cdn.com/resources/images/store/2015/global/980x470/ANZ/Books/xbooks-980x470-20180709.jpg.pagespeed.ic.C1mAoebo9h.jpg" class="imgTab"></div>
+            <div class="col s4"><p>Fun Fotos lets you create online picture books! Upload your photos and go to town!</p><a class="waves-effect waves-light btn centerButton" href="FunFotos.html">Shop Now!</a></div>
+            <div class="col s4"><img src="https://i.ytimg.com/vi/YFG5kr5-qbU/maxresdefault.jpg" class="imgTab"></div>
+        </div>
+    </div>
+    
+    <footer class="page-footer teal lighten-2" style="height:220px">
+        <div class="wrapperInner">
+            <div class="footRight">
+                <h4>Connect with us!</h4>
+                <ul class="ConnectW">
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Linkedin</li>
+                    <li>Email</li>
+                </ul>
+            </div>
+            <h4>ShutterSnap</h5>
+            <h6>© 2019 Copyright LLC</h6>
+        </div>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+         (function($){
+            $(function(){
+              $('.tabs').tabs();
+              $('.parallax').parallax();
+            }); // end of document ready
+          })(jQuery); 
+    </script>
+    
+</body>
+</html>

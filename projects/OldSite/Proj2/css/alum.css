@@ -1,0 +1,47 @@
+/*contactPage.css*/
+/*core material*/
+.icon{
+    height: 25px;
+    width: 25px;
+}
+
+p a{
+    font-size: 18px;
+}
+.seealso{
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 40px;
+	box-sizing: border-box;
+}
+table{
+    width: 100%;
+    margin: auto;
+}
+.half-table{
+    text-align: center;
+    width: 50%;
+}
+.align-left{
+    text-align: left;
+}
+td .third{
+    width: 33%;
+    text-align: center;
+    border: 1px solid black;
+}
+img{
+    height: 100%;
+    display:block;
+    margin: auto;
+}
+.small{
+    height: 400px;
+    width: auto;
+}
+.wide{
+    width: 100%;
+    height: auto;
+}

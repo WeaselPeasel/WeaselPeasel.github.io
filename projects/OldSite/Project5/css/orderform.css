@@ -1,0 +1,68 @@
+/* orderform.css */
+/* TIDY up this css, make color scheme actually good, change the buttons around */
+#addr::placeholder {
+	color: #888;
+}
+
+.list-order {
+	width: 100%;
+	margin: auto;
+	background-color: white;
+}
+
+#total-price {
+	padding: 5px;
+	margin: auto;
+	background-color: #e53935;
+	color: white;
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+}
+#price {
+	color: whitesmoke;
+	font-size: 35px;
+}
+
+h4 {
+	color: red;
+}
+
+u {
+	text-decoration: none;
+	border-bottom: 1px solid grey;
+}
+
+input {
+	border: 1px solid black;
+}
+
+@media screen and (max-width: 800px){
+	.form-cont {
+		width: 100%;
+		margin: auto;
+		padding: 10px;
+		background-color: white;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (min-width: 800px){
+	.form-cont {
+		width: 40%;
+		margin: auto;
+		padding: 10px;
+		background-color: white;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+}
+
+#confirm {
+	border: 1px solid #555;
+	background-color: lightgreen;
+	padding: 10px;
+	font-family: monospace;
+}

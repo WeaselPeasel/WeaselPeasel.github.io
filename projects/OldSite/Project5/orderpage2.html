@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PPP - Order Page</title>
+		<link rel="stylesheet" href="css/materialize.min.css" type="text/css">
+		<link rel="stylesheet" href="css/orderpage2.css" type="text/css">
+		<link rel="stylesheet" href="css/index.css" type="text/css" media="screen,projection">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<meta charset="utf-8" lang="english">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/sweetalert.min.js"></script>
+		<script src="js/cookiemanip.js"></script>
+		<script src="js/orderpage.js"></script>
+		<script src="js/materialize.min.js"></script>
+	</head>
+	<body>
+		<!-- <header>
+			Add content here once header is done
+		</header> -->
+		<!-- Header -->
+		<nav>
+			<div class="nav-wrapper red darken-1">
+				<a href="index.html" class="brand-logo logo-font"><img src="images/icons/pizza.png" class="pizza-icon" alt="pizza-icon">Pebble's Perfect Pizza</a>
+				<a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#" class="logo-font">Menu</a></li>
+					<li><a href="orderform.html"><i class="material-icons">shopping_cart</i></a></li>
+                    <li class="cart-count">0</li>
+				</ul>
+			</div>
+		</nav>
+		<ul class="sidenav" id="mobile-nav">
+			<li><a href="#">Menu</a></li>
+			<li><a href="orderform.html">Cart</a></li>
+		</ul>
+		<div class="mycontainer">
+			<!-- Main Content -->
+			<div class="options">
+				<div class="myhead p40">
+					<img class="hide-big" src="images/cart.png" id="cart">
+					<span class="hide-big cart-count">0</span>
+				</div>
+				<div class="myhead p20">Smol</div>
+				<div class="myhead p20"></div>
+				<div class="myhead p25">Lorge</div>
+			</div>
+			<br>
+			<!-- Menu -->
+			<div class="menu">
+				<div class="m-option flex p40">
+					<img src="images/pepperoni.jpg"><p class="item">Pepperoni: </p>
+				</div>
+				<div class="m-option p20">
+					<span>$9.99</span><br>
+					<button id="atc" type="button" value="SP">Add to Cart</button>
+				</div>
+				<div class="m-option p20"></div>
+				<div class="m-option p25">
+					<span>$14.99</span><br>
+					<button id="atc" type="button" value="LP">Add to Cart</button>
+				</div>
+			</div>
+			<br><!-- ************************************** --><div class="divider"></div><br>
+			<div class="menu">
+				<div class="m-option flex p40">
+					<img src="images/glitter-pizza.png"><p class="item">Glitter: </p>
+				</div>
+				<div class="m-option p20">
+					<span>$11.99</span><br>
+					<button id="atc" type="button" value="SG">Add to Cart</button>
+				</div>
+				<div class="m-option p20"></div>
+				<div class="m-option p25">
+					<span>$16.99</span><br>
+					<button id="atc" type="button" value="LG">Add to Cart</button>
+				</div>
+			</div>
+			<br><!-- ************************************** --><div class="divider"></div><br>
+			<div class="menu">
+				<div class="m-option flex p40">
+					<img src="images/cheese.jpg"><p class="item">Cheese: </p>
+				</div>
+				<div class="m-option p20">
+					<span>$7.99</span><br>
+					<button id="atc" type="button" value="SC">Add to Cart</button>
+				</div>
+				<div class="m-option p20"></div>
+				<div class="m-option p25">
+					<span>$12.99</span><br>
+					<button id="atc" type="button" value="LC">Add to Cart</button>
+				</div>
+			</div>
+			<br><!-- ************************************** --><div class="divider"></div><br>
+			<div class="menu">
+				<div class="m-option flex p40">
+					<img src="images/hawaiian.jpg"><p class="item">Hawaiian: </p>
+				</div>
+				<div class="m-option p20">
+					<span>$9.99</span><br>
+					<button id="atc" type="button" value="SH">Add to Cart</button>
+				</div>
+				<div class="m-option p20"></div>
+				<div class="m-option p25">
+					<span>$14.99</span><br>
+					<button id="atc" type="button" value="LH">Add to Cart</button>
+				</div>
+			</div>
+			<br><!-- ************************************** --><div class="divider"></div><br>
+			<div class="menu">
+				<div class="m-option flex p40">
+					<img src="images/meatlover.jpg"><p class="item">Meatlovers: </p>
+				</div>
+				<div class="m-option p20">
+					<span>$10.99</span><br>
+					<button id="atc" type="button" value="SM">Add to Cart</button>
+				</div>
+				<div class="m-option p20"></div>
+				<div class="m-option p25">
+					<span>$15.99</span><br>
+					<button id="atc" type="button" value="LM">Add to Cart</button>
+				</div>
+			</div>
+			<br><!-- ************************************** --><div class="divider"></div><br>
+			<div class="menu">
+				<div class="m-option flex p40">
+					<img src="images/dessert-pizza.jpg"><p class="item">Dessert Pizza: </p>
+				</div>
+				<div class="m-option p20">
+					<span>$4.99</span><br>
+					<button id="atc" type="button" value="SD">Add to Cart</button>
+				</div>
+				<div class="m-option p20"></div>
+				<div class="m-option p25">
+					<span>$9.99</span><br>
+					<button id="atc" type="button" value="LD">Add to Cart</button>
+				</div>
+			</div>
+			<br><!-- ************************************** --><div class="divider"></div><br>
+			<div class="bottom-panel">
+				<button id="clr-order" type="button">Clear Cart</button>
+				<button id="submit" type="button">Submit Order</button>
+			</div>
+		</div>
+		<!-- Footer -->
+		<footer class="page-footer red darken-1">
+				<div class="container">
+				  <div class="row">
+					<div class="col l6 s12">
+					  <h5 class="white-text logo-font">Pebble's Perfect Pizza</h5>
+					  <p class="grey-text text-lighten-4"></p>
+					</div>
+					<div class="col l4 offset-l2 s12">
+					  <h5 class="white-text logo-font">Connect with us</h5>
+					  <ul>
+						<li class="social-media"><a class="grey-text text-lighten-3" href="https://twitter.com/" target="_blank"><img class="icons" src="images/icons/twitter.png" alt="twitter"></a></li>
+						<li class="social-media"><a class="grey-text text-lighten-3" href="https://www.instagram.com/" target="_blank"><img class="icons" src="images/icons/instagram.png" alt="instagram"></a></li>
+						<li class="social-media"><a class="grey-text text-lighten-3" href="https://www.facebook.com/" target="_blank"><img class="icons" src="images/icons/facebook.png" alt="facebook"></a></li>
+					  </ul>
+					</div>
+				  </div>
+				</div>
+				<div class="footer-copyright">
+				  <div class="container">
+				  © 2019 Copyright Text
+				  </div>
+				</div>
+		  </footer>
+		<!-- Script Section -->
+		<script>
+			// main
+			// Or with jQuery
+			$(document).ready(function(){
+				$(".sidenav").sidenav();
+				
+			});
+		</script>
+	</body>
+</html>

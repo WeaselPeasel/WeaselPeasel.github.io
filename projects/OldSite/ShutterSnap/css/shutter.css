@@ -1,0 +1,74 @@
+.wrapperInner {
+    width: 1200px;
+    margin: auto;
+}
+.backImg {
+    border: 1px solid black;
+    height: 200px;
+}
+.backImg p{
+    text-align: center;
+}
+.shutterAd{
+    padding-top: 10px;
+    display:flex;
+}
+.shutterAd  > div {
+    border: 1px solid black;
+    flex: 1;
+}
+.adLogo{
+    height:80px;
+    width:80px;
+    margin: auto;
+}
+.addPad {
+    padding: 25px;
+}
+.flex {
+    display: flex;
+}
+.border {
+    border: 1px solid black;
+}
+.imgTab {
+    width:100%;
+    height: 300px;
+}
+p.paraText{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+div.paraText{
+    position: relative;
+    top: 30%;  
+}
+.footRight{
+    float: right;
+    position:relative;
+    top: -25px;
+}
+.ConnectW{
+    list-style: none;
+    padding: 0;
+}
+.ConnectW li{
+    padding-left: 20px;
+    cursor: pointer;
+    transition: all 250ms;
+}
+.ConnectW li:hover {
+    padding-left: 30px;
+}
+.centerButton{
+    position: relative;
+    left: 120px;   
+}
+.goBack {
+    position: relative;
+    width: 300px;
+    height: 60px;
+    left: 450px;
+}

@@ -1,0 +1,66 @@
+.searchDiv {
+    width: 1200px;
+    margin: auto;
+}
+.datePicker {
+    position:relative;
+    top: -7px   
+}
+.submitSearch {
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+.canvasWrapper{
+    display: flex;
+    height:600px;
+}
+
+.imgDisp {
+    width: 195px;
+    height:195px;
+}
+.imgDiv {
+    overflow:auto;
+    height: 200px;
+}
+.imgFinal {
+    margin: auto;
+    width: 250px;
+    height:250px;
+}
+.canvasMain{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.canvasMain > div {
+    display: flex;
+    justify-content: center;
+}
+.funButton{
+    width: 140px;
+    position:relative;
+    left: 28px;
+    margin-bottom: 10px;
+}
+input[type="color"]{
+    width: 120px;
+    position: relative;
+    left: 40px;
+    top: -40px;
+}
+.numberDiv {
+    width: 140px;
+    position: relative;
+    left: 30px;
+}
+.makeitnice {
+    position: relative;
+    left: 32px;
+}
+.makeitreallynice {
+    position: relative;
+    top: -40px;
+}

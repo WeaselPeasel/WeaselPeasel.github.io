@@ -1,0 +1,84 @@
+/*contactPage.css*/
+/*core material*/
+img{
+    width: 48%;
+}
+table{
+    width: 100%;
+}
+td{
+    width: 50%;
+}
+.left{
+    padding-right: 10px;
+}
+.right{
+    padding-left: 10px;
+}
+img{
+    width: 100%;
+    height: auto;
+    display:block;
+    margin: auto;
+}
+.two-pics{
+    width: 50%;
+    height: auto;
+    display: block;
+    float: left;
+}
+p a{
+    font-size: 18px;
+}
+.nav-pic{
+    width: 100px;
+    height: 93px;
+}
+.full-pic{
+    height: 375px;
+    width: 500px;
+}
+
+.icon{
+    height: 25px;
+    width: 25px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.gallery {
+  width: 100%;
+  overflow: hidden;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.navigation li {
+  padding: 0;
+  margin: 0;
+  float: left;
+  clear: both;
+}
+.navigation li a{
+    padding: 0px;
+}
+.navigation li a img {
+  display: block;
+  border: none;
+}
+
+.navigation li a {
+  display: block;
+}
+
+.full-picture {
+  width: 80%;
+  height: 375px;
+  overflow: hidden;
+  float: left;
+}

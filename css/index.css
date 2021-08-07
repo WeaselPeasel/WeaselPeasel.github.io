@@ -1,11 +1,15 @@
+body {
+	height: 100%;
+	/* width: 100%; */
+}
+
 .navigation {
-    list-style: none;
     display: flex; 
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    margin-left: 0px;
-    /* width: 90%; */
+    /* justify-content: flex-start; */
+    margin-bottom: 30px;
+    width: 100%;
     background-color: white;
 }
 
@@ -14,14 +18,9 @@ h2 {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
 .navigation a {
     /* flex: 1; */
-    width: 25%;
+    width: 33%;
     margin-left: 0px;
     padding: 5px 5px;
     background-color: #0aa;
@@ -29,6 +28,9 @@ a {
     text-align: center;
     font-size: 30px;
     border: 1px solid black;
+
+	text-decoration: none;
+    color: black;
 }
 .navigation a:hover {
     animation-name: navcolor;
@@ -39,6 +41,24 @@ a {
 @keyframes navcolor {
     from {background-color: #0aa;}
     to {background-color: #077;}
+}
+
+.resume {
+	text-decoration: none;
+	color: black;
+	font-size: 24pt;
+	font-family: Bodoni;
+	width: 25%;
+	padding: 10px 20px;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+	margin: auto;
+	background-color: #1ca;
+}
+
+.resume:hover {
+	background-color: #1fb;
 }
 
 .aboutMe {
@@ -74,4 +94,41 @@ html {
     z-index: -10;
     top: 0;
     left: 0
+}
+
+footer {
+	width: 100%;
+	background-color: #077;
+	padding: 20px 0px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.contact-me-header {
+	width: 20%;
+	margin: auto;
+	font-size: 28pt;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.contact-me {
+	width: fit-content;
+	margin: auto;
+}
+
+/* .contact-me img {
+	width: 15%;
+} */
+
+.contact-me a {
+	font-size: 18pt;
+	color: white
+}
+
+/* Mobile friendly css */
+@media screen and (max-width: 800px) {
+	.resume {
+		width: 30%;
+	}
 }

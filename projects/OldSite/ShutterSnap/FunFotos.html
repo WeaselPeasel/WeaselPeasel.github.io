@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>FunFotos</title>
+    <link type="text/css" rel="stylesheet" href="css/shutter.css">
+    <link type="text/css" rel="stylesheet" href="css/FunFotos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/funfotos.js"></script>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<!-- header -->
+    <nav class="teal lighten-2">
+        <div class="navbar-fixed">
+            <div class="nav-wrapper wrapperInner">
+                <a href="index.html" class="brand-logo">ShutterSnap</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="">Fun Fotos</a></li>
+                    <li><a href="construction.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <div class="wrapperInner">
+        <div style="height:40px"></div>
+        <div class="searchDiv">
+            <form>
+                <div style="display:flex">
+                    <div class="input-field" style="flex:4">
+                        <input placeholder="Search Metadata.." id="searchText" type="text" ckass="validate">
+                    </div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div style="flex:2" class="datePicker">
+                        <label for="Start">Start Date</label>
+                        <input type="date" name="Start">
+                    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div style="flex:2" class="datePicker">
+                        <label for="End">End Date</label>
+                        <input type="date" name="End">
+                    </div>
+                    <div style="flex:1">
+                        <button id="Submit" type="button" class="btn waves-effect waves-light submitSearch">Submit<i class="material-icons right">send</i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class= "wrapperInner">
+        <div class="imgDiv"></div>
+    </div>
+    
+    <div class="wrapperInner canvasWrapper" style="margin-top:20px">
+        <div class="border canvasWrap" style="flex:5">
+            <div class="canvasMain">
+                
+            </div>
+        </div>
+        <div class="border" style="flex:1">
+            <div style="padding:10px">
+                <h4 style="text-align: center">Options</h4>
+                <button type="submit" class="btn waves-effect waves-light resetBook funButton">Reset Book</button>
+                <button type="submit" class="btn waves-effect waves-light funButton">Upload Photos</button>
+                <button type="submit" class="btn waves-effect waves-light funButton clearPage">Clear Page</button>
+                <form>
+                    <p style="padding-left: 30px">Page:</p><div class="numberDiv"><input type="number" min="1" max="20" class="pagePicker" id="pageP" value="1"></div>
+                </form>
+            </div>
+            <div class="makeitreallynice">
+                <p style="padding:40px">Choose a background color:</p>
+                <input type="color" id="colorP">
+            </div>
+        </div>
+    </div>
+    <div style="height:43px"></div>
+    <footer class="page-footer teal lighten-2" style="height:220px">
+        <div class="wrapperInner">
+            <div class="footRight">
+                <h4>Connect with us!</h4>
+                <ul class="ConnectW">
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Linkedin</li>
+                    <li>Email</li>
+                </ul>
+            </div>
+            <h4>ShutterSnap</h5>
+            <h6>© 2019 Copyright LLC</h6>
+        </div>
+    </footer>
+    
+    
+<script src="js/sweetalert.min.js"></script>
+
+</body>
+</html>

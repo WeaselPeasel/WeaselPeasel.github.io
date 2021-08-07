@@ -1,0 +1,143 @@
+/*index.css*/
+
+div.encap {
+	width: 90%;
+	margin: auto;
+}
+/*Banner/Header elements*/
+h2 {
+	margin: auto;
+	color: #333;
+	font-size: 40px;
+}
+header {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+img.logo {
+	width: 25%;
+}
+div.banner {
+	height: 300px;
+	width: 75%;
+	background-image: url(../images/bannerimg.png);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	/* background-size: 85%, ; */
+}
+
+/*Helper Elements*/
+#instructout {
+	background-color: lightgreen;
+	text-align: center;
+}
+
+#victory {
+	background-color: purple;
+	color: #fff;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: large;
+}
+
+/*Main Body*/
+div#board {
+	width: 60%;
+	margin: auto; 
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+div.button-container {
+	background-color: #2c2;
+	width: 40%;
+}
+div.main {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+div.space {
+	width: 10%;
+	height: 70px;
+	border: 1px solid #000;
+	background-color: lightgreen;
+}
+.space:hover {
+	background-color: #070;
+}
+.marked:hover {
+	background-color: #06d;
+}
+
+/*footer*/
+footer {
+	height: 200px;
+	background-color: #555;
+	color: #fff;
+}
+footer p {
+	font-size: large;
+	padding: 10px;
+	background-color: #aba;
+	color: #000;
+}
+
+/*Game Logic Classes*/
+.hidden { 
+	opacity: 0;
+}
+div.marked {
+	/* background-image: url() */
+	background-color: #09f;
+}
+.blown {
+	width: 10%;
+	height: 70px;
+	border: 1px solid #000;
+	background-color: crimson;
+}
+.beenselec {
+	width: 10%;
+	height: 70px;
+	border: 1px solid #000;
+	background-color: #ccc;
+}
+
+/*Buttons*/
+#instruct {
+	background-color: orange;
+	padding: 15px;
+}
+#submitname {
+	background-color: blue;
+	color: #fff;
+	padding: 15px;
+}
+#reset {
+	background-color: red;
+	color: #fff;
+	padding: 15px;
+}
+
+/*Popup*/
+#deleteme {
+	position: absolute;
+	animation-timing-function: linear;
+	/* margin: auto; */
+	width: 40%;
+	top: 200px;
+	right: 400px;
+	/* z-index: 3; */
+}
+
+@keyframes endgame {
+	0% {top: 200px; right: -200px; width: 100px;}
+	/* 25% {top: 100px; left: 40px; transform: scale(1.5, 1.5);} */
+	50% {top: 200px; right: 200px; width: 400px;}
+	100% {top: 200px; right: 400px; width: 40%;}
+}

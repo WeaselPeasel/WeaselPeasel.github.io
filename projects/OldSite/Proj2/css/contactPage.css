@@ -1,0 +1,73 @@
+/*contactPage.css*/
+/*core material*/
+
+.form-left{
+    width: 66%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+.our-info{
+    width: 33%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+.icon{
+    height: 25px;
+}
+.socialmedia{
+    height: 50px;
+}
+
+h2{
+    margin-top: 105px;
+    margin-bottom: 20px;
+}
+
+h4{
+    text-align: center;
+}
+table{
+    width: 100%;
+    margin: auto;
+}
+td{
+    text-align: center;
+}
+.col1{
+    width: 33%;
+}
+.col2{
+    width: 66%;
+}
+form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 265px;
+    
+}
+label, select, input{
+    width: 250px;
+    display: block;
+    padding: 5px;
+    margin-top: 5px;
+}
+input[type=text], input[type=email]{ /* no spaces! */
+    border: 1px solid #333333;
+    font-size: 14px;
+    background-color: #fa0;
+}
+select{
+    font-size: 14px;
+}
+input[type=button]{
+    border: 2px solid #000;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: #906;
+    color: #fff;
+    font-size: 14px;
+}
