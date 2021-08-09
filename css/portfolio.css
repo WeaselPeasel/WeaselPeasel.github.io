@@ -91,4 +91,8 @@
 	.project {
 		width: 70%;
 	}
+
+    .project-link {
+        width: 100%;
+    }
 }
