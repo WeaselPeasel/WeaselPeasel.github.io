@@ -1,6 +1,7 @@
 #page-wrapper {
 	min-height: 100vh;
-    position: relative
+    position: relative;
+    /* bottom: 200px; */
 	/* width: 100%; */
 }
 
@@ -128,6 +129,7 @@ footer {
 	margin-top: 60px;
 	margin-bottom: 0px;
     bottom: 0;
+    max-height: 200px;
 }
 
 .contact-me-header {
@@ -149,6 +151,7 @@ footer {
 
 .contact-me img {
 	width: 10%;
+    /* max-height: 5vh; */
 }
 
 .contact-me a {
@@ -162,4 +165,8 @@ footer {
 	.resume {
 		width: 30%;
 	}
+
+    .contact-me img {
+        max-height: 5vh;
+    }
 }
