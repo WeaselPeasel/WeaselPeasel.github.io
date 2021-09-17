@@ -1,5 +1,4 @@
 const header = document.getElementById("header");
-'<a id="logo" href="index.html"><img src="images/Logo2.png"></a>'
 let img1 = document.createElement("img");
 img1.src = "images/Logo2.png";
 img1.id += "logo";
